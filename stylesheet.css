@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    height: 200%;
+    width: 100%;
+}
+.main{
+    background-color: red;
+    width: 100%;
+    height: 500px;
+}
+.div1{
+    background-color: rgb(12, 66, 48);
+    width: 50%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.div1 h1{
+    margin-top: 100px;
+}
+.div1 p{
+    color: aliceblue;
+}
+.div1 button{
+background-color: rgb(12, 66, 48);
+border: 1px solid white;
+padding: 5px 20px;
+border-radius: 10px;
+color: white;
+}
+.div2{
+    background-color: white;
+    width: 50%;
+    height: 500px;
+    float: right;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.div2 h1{
+    margin-top: 50px;
+    color: rgb(12, 66, 48);
+
+}
+.div2 button{
+    background-color: rgb(12, 66, 48);
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    }

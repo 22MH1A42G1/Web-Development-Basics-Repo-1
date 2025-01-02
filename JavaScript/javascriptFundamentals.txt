@@ -1,0 +1,171 @@
+JavaScript Fundamentals:
+======================
+=>it is an Programming Language
+JS-->Compilation X
+    -->Browsers
+ 	in full-stack have ==>1.html,
+			2.css
+			3.js
+ _______________________________
+|sl.no | browers     |    use engine(js)|
+ -----------------------------------------------
+  1       chorome,        Vs
+           opera
+  2      fire fox          spider monkey
+  3      Micro-soft     Chakra
+  4      IOS safari      sqeral fish
+-----------------------------------------------
+
+node -->run-time environment (JS)
+           -->RS engine
+
+Variablles:
+----------------
+i/p data
+|
+pgm
+|
+data-->file✔
+
+let variableName;
+variableName = 1;
+
+Datatypes
+---------------
+1)number-->int(1,2,-3,..),float(0.1,-0.2,...)
+2)BigInt (2^(53) -1)
+3)String  -->"Aditya","Java","JS",....
+4)Boolean -->True (or) Flase
+5)Null ---> a = null
+6)Objects
+
+Type Casting: 
+=============
+Operators: (typeof(var))-->returns datatype
+Implicit Type Casting:   type1--->type2
+===================
+Explicit Type Casting:
+==================
+1) toString
+2)toNumeric
+3)toBoolean
+------------------------
+null--->0
+true-->1
+false-->0
+string--->NaN
+0,Nan,null--->false
+1-->true
+
+
+a=b+c
+=>operands(+, -, *, /, %, =, ++, --,...)
+=>operations(b/w 2 or more variables)
+
+------------------------
+
+Conditionals    and   loops
+=======================
+if(condition){
+-----------------
+----------------------
+--------------
+}else if(condition){
+----------------
+--------------
+--------
+}else{
+---------
+---------
+}
+
+while(condition){
+----------------
+-----------------
+----------------
+}
+for(init;condition;increment/decrement){
+-------------
+--------------
+---------------
+}
+_____________________________________________________
+fundamentals.js
+-----------------------
+//console.log("Hello World! Aditya")
+
+// let a =2;
+// let b =3.14;
+// let c="aditya";
+// let d=true;
+// console.log(typeof(a))
+// console.log(typeof(b))
+// console.log(typeof(c))
+// console.log(typeof(d))
+
+// let a=2;
+// let b=String(a);
+// let c=Boolean(a);
+// let d ="abc";
+// let e="123";
+// let f = Number(d);
+// let g =Number(e);
+// console.log(typeof(b))
+// console.log(c)
+// console.log(f)
+// console.log(g)
+
+// let a = "Aditya";
+// let b = "Indana. ";
+// let c = b + a;
+// console.log(c);
+
+// let a = 2;
+// let b = 3;
+// console.log(a==b);
+
+// let a =2;
+// let b =1;
+// if(a==b){
+//     console.log("a is equal to b");
+// }
+// else if(a>b){
+//     console.log("a is greater to b");
+// }
+// else{
+//     console.log("a is not equal to b");
+// }
+
+// for (let index = 1; index <= 5; index++) {
+//     console.log(index);
+// }
+
+a =1;
+while (a<=5) {
+    console.log(a);
+    a++;
+}
+
+
+_______________________________________________________________________________________________________________
+Topic #	Topic	# Sessions	Status	Attendance	Course Content	Assessment	Activity
+					JavaScript
+_______________________________________________________________________________________________________________
+1	Introduction	2			2 / 2		-		-	
+2	Let, var and Const	1	1 / 1		-		-		-
+3	Data types		-	-	-	-		-		-
+4	Conditional Statements	-	-	-		-		-	
+5	Form Validations	-	-	-	-		-		-
+6	Functions		-	-	-	-		-		-
+7	JavaScript Events	-	-	-	-		-		-
+8	String Methods	-	-	-	-		-		-
+9	Array Methods	-	-	-	-		-		-
+10	ES6 Concepts	-	-	-	-		-		-
+_______________________________________________________________________________________________________________
+
+JavaScript have
+1. inline
+2.internal
+ex:<script></script>
+3. external
+ex: <script src="filename.js"></script>

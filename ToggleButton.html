@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toggle Button | Dark and Light Mode By Coding Techniques</title>
+        <link rel="stylesheet" href="Button.css">
+    </head>
+    <body>
+        <input type="checkbox" class="checkbox" id="toggleSwitch">
+        <label for="toggleSwitch" class="switch-label">
+            Switch to Dark Mode
+        </label>
+
+        <script>
+            const toggleSwitch = document.getElementById('toggleSwitch');
+            toggleSwitch.addEventListener('change', () => {
+                document.body.classList.toggle('dark-mode', toggleSwitch.checked);
+            });
+        </script>
+    </body>
+</html>
